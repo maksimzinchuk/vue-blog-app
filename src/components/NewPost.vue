@@ -6,7 +6,7 @@
       <input
         class="new-post__title"
         type="text"
-        placeholder="заголовок поста"
+        placeholder="Заголовок поста"
         v-model="title"
         required
       />
@@ -14,7 +14,7 @@
         class="new-post__short"
         cols="30"
         rows="2"
-        placeholder="короткое описание"
+        placeholder="Краткое описание"
         v-model="shortPost"
         required
       ></textarea>
@@ -22,7 +22,7 @@
         class="new-post__full"
         cols="30"
         rows="10"
-        placeholder="полное описание"
+        placeholder="Полное описание"
         v-model="fullPost"
         required
       ></textarea>

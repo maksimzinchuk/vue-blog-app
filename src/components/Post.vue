@@ -61,7 +61,7 @@
               id=""
               cols="30"
               rows="5"
-              placeholder="текст комментария"
+              placeholder="Текст комментария"
               class="comment-add__comment"
               v-model="comment"
               required
