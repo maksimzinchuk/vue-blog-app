@@ -11,7 +11,7 @@
           v-show="!postEdit"
         >
           <h2 class="post__header">{{ post.post.title }}</h2>
-          <p class="post__short">{{ post.post.shortPost }}</p>
+          <p class="post__short" v-show="!showFull">{{ post.post.shortPost }}</p>
           <p v-show="!showFull">Комментариев: {{ commentsNumber }}</p>
         </div>
 
@@ -155,7 +155,7 @@ export default {
 .post__full
     margin: 20px
     border: 1px solid black
-    height: 100px
+    min-height: 100px
     background-color: #E0DDDD
     font-size: 20px
 

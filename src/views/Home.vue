@@ -43,7 +43,7 @@ export default {
       this.posts = this.posts.filter((item) => item.post.id !== id);
     },
     removeComment(id) {
-      let newArr = [];
+      const newArr = [];
       this.posts.forEach((post) => {
         const findIndex = post.comments.findIndex(
           (comment) => comment.commentId == id

@@ -8,6 +8,8 @@ SPA приложение для ведения личного блога
 
 Все данные записываются в localstorage в формате JSON.
 
+Ссылка на проект: https://maksimzinchuk.github.io/vue-blog-app
+
 ## Project setup
 
 ```
